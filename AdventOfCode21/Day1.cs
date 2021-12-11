@@ -23,10 +23,10 @@ namespace AdventOfCode21
 
             int increaseCount = 0;
 
-            for (int i = 0; i < lines.Length; i++)
+            for (int i = 0; i <= lines.Length; i++)
             {
                 try { nums[i] = int.Parse(lines[i]); }
-                catch (FormatException e){ break; }
+                catch (FormatException){ break; }
             }
 
 

@@ -6,11 +6,10 @@ namespace AdventOfCode21
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
+            Day3 day3 = new();
 
-            Day1 day1 = new();
-
-            day1.countIncreases();
+            day3.PowerConsumption(); 
 
 
         }
